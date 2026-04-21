@@ -47,7 +47,7 @@ st.write(f'El porcentaje de blanqueamiento es: {prediccion:.2f}%')
 
 if prediccion < 30:
         st.success("Estado: Saludable ✅")
-    elif prediccion < 60:
+elif prediccion < 60:
         st.warning("Estado: Riesgo Moderado ⚠️")
-    else:
+else:
         st.error("Estado: Alerta Crítica 🚨")
