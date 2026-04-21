@@ -25,7 +25,7 @@ st.sidebar.header("Parámetros Ambientales")
 temp_input = st.sidebar.slider("Temperatura del Agua (°C)", 24.0, 35.0, 28.0)
 
 # Cargamos el archivo con los datos (.csv)
-datos =  pd.read_csv('Corales_ODS14.csv', encoding='latin-1')
+df =  pd.read_csv('Corales_ODS14.csv', encoding='latin-1')
 # Seleccionamos las variables
 X = df[['Temperatura_C']] 
 y = df['Porcentaje_Blanqueamiento'] 
