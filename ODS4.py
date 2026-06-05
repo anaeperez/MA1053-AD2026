@@ -52,9 +52,6 @@ presupuesto_infra = presupuesto * porcentaje_infra
 presupuesto_docentes = presupuesto * porcentaje_docentes
 
 # Presentamos loa resultados
-st.subheader('Estado de los corales')
-st.write(f'El porcentaje de blanqueamiento es: {prediccion:.2f}%')
-
 total_gastado = presupuesto*(porcentaje_becas + porcentaje_infra + porcentaje_docentes)
 # Validar restricciones
 import warnings
