@@ -6,7 +6,7 @@ import pandas as pd
 # Insertamos título
 st.write(''' # ODS 4: Educación de calidad ''')
 # Insertamos texto con formato
-#st.markdown("""Optimización de Recursos para el Fortalecimiento Educativo.""")
+st.markdown("""Recursos para el Fortalecimiento Educativo en India.""")
 # Insertamos una imagen
 st.image("Goal-04.png")
 
