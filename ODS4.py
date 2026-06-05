@@ -67,7 +67,7 @@ else:
     st.success("Combinación de presupuesto válida.")
 
 st.subheader('Impacto alcanzado')
-impacto = prep_alumno*b1 + presupuesto_infra/100000000*0.15 + presupuesto_docentes/100000000*.14
+impacto = b0 + prep_alumno*b1[0] + infraestructura1/100000000*0.15 + docentes1/100000000*.14
 st.metric("Impacto Proyectado ODS 4", f"+{float(impacto):.3f}%")
 #st.write(f'El porcentaje de término es: {impacto:.2f}%')
   
