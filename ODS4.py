@@ -66,7 +66,7 @@ elif presupuesto_docentes < presupuesto*.15:
 else:
     st.success("Combinación de presupuesto válida.")
     impacto = prep_alumno*b1 + presupuesto_infra/100000000*0.15 + presupuesto_docentes/100000000*.14
-    st.metric("Impacto" f"+{impacto:.3f}%")
+    st.write("Impacto" f"+{impacto:.3f}%")
 
 # Presentamos el tipo de filosofía
 if porcentaje_becas >= 0.40:
