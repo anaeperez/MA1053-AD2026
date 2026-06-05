@@ -68,7 +68,7 @@ else:
 
 st.subheader('Impacto alcanzado')
 impacto = prep_alumno*b1 + presupuesto_infra/100000000*0.15 + presupuesto_docentes/100000000*.14
-st.metric("Impacto Proyectado ODS 4", f"+{impacto:.3f}%")
+st.metric("Impacto Proyectado ODS 4", f"+{float(impacto):.3f}%")
 #st.write(f'El porcentaje de término es: {impacto:.2f}%')
   
 # Presentamos el tipo de filosofía
