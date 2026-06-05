@@ -16,7 +16,7 @@ st.image("Goal-04.png")
   # Límite inferior: 20000000000
   # Límite superior: 64000000000
   # Valor inicial: 40000000000
-presupuesto = st.sidebar.slider("Presupuesto", 500, 2400, 1000)
+presupuesto = st.sidebar.slider("Presupuesto", 500, 2500, 1000)
 
 #st.sidebar.header("Porcentaje de Becas")
 #porcentaje_becas = st.sidebar.slider("Porcentaje de Becas", 0.0, 1.0, 0.2)
