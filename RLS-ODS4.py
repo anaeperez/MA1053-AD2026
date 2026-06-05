@@ -31,6 +31,8 @@ y = datos['Termino']
 from sklearn.linear_model import LinearRegression
 LR = LinearRegression()
 LR.fit(X,y)
+score = LR.score(X, y)
+st.write("El ajuste es de: \n", score)
 
 # Extraemos los coeficientes de la regresión
 b1 = LR.coef_
